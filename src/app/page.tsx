@@ -1,10 +1,10 @@
 'use client';
 
 import React, { useState, useEffect, useCallback } from 'react';
-import Timer from '../components/Timer';
-import WordDisplay from '../components/WordDisplay';
-import GameOver from '../components/GameOver';
-import StartGame from '../components/StartGame';
+import Timer from '@/components/Timer';
+import WordDisplay from '@/components/WordDisplay';
+import GameOver from '@/components/GameOver';
+import StartGame from '@/components/StartGame';
 
 const words = ['typescript', 'javascript', 'nextjs', 'react', 'tailwind', 'component', 'state', 'props', 'hooks', 'router', 'async', 'promise', 'function', 'object', 'array'];
 
